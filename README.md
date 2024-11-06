@@ -4,6 +4,7 @@
 - Each function must not exceed 25 lines.
 - The project must be written solely in C.
 - Global variables are not allowed.
+- Any crash, leak, or conditional jump is forbidden (doesn't apply to the graphical library).
 - Allowed external functions are: `read`, `write`, `malloc`, `free`, `exit`, `open`, `close`, `perror`, `strerror`, `gettimeofday`.
 
 ### Project Overview:
@@ -15,6 +16,8 @@ The walls textures are defined in each map settings, along with the colour of th
 
 We were asked to do this project in a group of two, thus I focused on the implementation of the algorithm while [my teammate](https://github.com/une-nerd-parmi-d-autres) preferred the parsing of the maps.
 She also created a tester together with a set of valid and invalid maps, which made the eventual problems much easier to detect and fix.
+
+This project uses the graphical library [MacroLibX](https://github.com/seekrs/MacroLibX), a rewrite of the 42 MiniLibX.
 
 ## Preview:
 
